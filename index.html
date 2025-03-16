@@ -1,219 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
 
     <!-- Import Swiper JS -->
     <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
-</head>
-<body>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
     <nav id="desktop-nav">
-        <div class="logo">Gregorius Geraldin</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skill">Skills</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+      <div class="logo">Gregorius Geraldin</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </nav>
 
     <nav id="hamburger-nav">
-        <div class="logo">Gregorius Geraldin</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#skill" onclick="toggleMenu()">skill</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </div>
+      <div class="logo">Gregorius Geraldin</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skill" onclick="toggleMenu()">skill</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
     </nav>
 
     <section id="profile">
-        <div class="section__pic-container">
-            <img id="profile-gif" src="https://cdn.dribbble.com/users/1860540/screenshots/5443348/media/48557b353fb67cfe15e19938cc9753d7.gif" alt="developer gif">
+      <div class="section__pic-container">
+        <img
+          id="profile-gif"
+          src="https://cdn.dribbble.com/users/1860540/screenshots/5443348/media/48557b353fb67cfe15e19938cc9753d7.gif"
+          alt="developer gif"
+        />
+      </div>
+      <div class="section__text">
+        <p id="profile-hello-text" class="section__text__p1">Hello, I'm</p>
+        <h1 id="profile-name-text">Gregorius Geraldin</h1>
+        <h2 class="role-text">
+          <span>Web Developer</span>
+          <span>Mobile Apps Developer</span>
+          <span>UI / UX Designer</span>
+        </h2>
+        <div class="btn-container">
+          <button
+            id="download-cv"
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Gregorius-Geraldin-Resume 2.pdf')"
+          >
+            Download CV
+          </button>
+          <button
+            id="contact-info"
+            class="btn btn-color-1"
+            onclick="location.href='./#contact'"
+          >
+            Contact Info
+          </button>
         </div>
-        <div class="section__text">
-            <p id="profile-hello-text" class="section__text__p1">Hello, I'm</p>
-            <h1 id="profile-name-text" >Gregorius Geraldin</h1>
-            <h2 class="role-text">                
-                <span>Web Developer</span>
-                <span>Mobile Apps Developer</span>
-                <span>UI / UX Designer</span>
-            </h2>
-            <div class="btn-container">
-                <button id="download-cv" class="btn btn-color-2" onclick="window.open('./assets/Gregorius-Geraldin-Resume.pdf')">Download CV</button>
-                <button id="contact-info" class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
-            </div>
-            <div id="socials-container">
-                <img src="./assets/linkedin.png" 
-                id="profile-linkedin"
-                alt="My LinkedIn profile" 
-                class="icon" 
-                onclick="location.href='https://www.linkedin.com/in/gregorius-geraldin/'"
-                />
-                <img src="./assets/github.png" 
-                id="profile-github"
-                alt="My Github profile" 
-                class="icon" 
-                onclick="location.href='https://github.com/gregoriusgrd'"
-                />
-            </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            id="profile-linkedin"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/gregorius-geraldin/'"
+          />
+          <img
+            src="./assets/github.png"
+            id="profile-github"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/gregoriusgrd'"
+          />
         </div>
+      </div>
 
-        <img id="profile-arrow" src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" 
-        onclick="location.href='./#about'"/>
+      <img
+        id="profile-arrow"
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#about'"
+      />
     </section>
 
     <section id="about">
-        <div class="title-container">
-            <p id="about-sub-title" class="section__text__p1">Get To Know More</p>
-            <h1 id="about-title" class="title">About Me</h1>
+      <div class="title-container">
+        <p id="about-sub-title" class="section__text__p1">Get To Know More</p>
+        <h1 id="about-title" class="title">About Me</h1>
+      </div>
+      <div class="section-container">
+        <div id="about-pic-container" class="section__pic-container">
+          <img
+            src="./assets/monochrome.png"
+            alt="Profile Picture"
+            class="about-pic"
+          />
         </div>
-        <div class="section-container">
-            <div id="about-pic-container" class="section__pic-container">
-                <img src="./assets/monochrome.png" alt="Profile Picture" class="about-pic">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div id="about-experience" class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="skill icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1 years <br />Mobile Apps Developer</p>
             </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div id="about-experience" class="details-container">
-                        <img src="./assets/experience.png" alt="skill icon" class="icon">
-                        <h3>Experience</h3>
-                        <p>1 years <br>Mobile Apps Developer</p>
-                    </div>
-                    <div id="about-education" class="details-container">
-                        <img src="./assets/education.png" alt="Education icon" class="icon">
-                        <h3>Education</h3>
-                        <p>B.Sc. Bachelors Degree <br>Binus Univertsity</p>
-                    </div>
-                </div>
-                <div id="about-desc" class="text-container">
-                    <p>
-                        I recently graduated with a Bachelor's in Computer Science, building a strong foundation in 
-                        programming, software development, and problem-solving. Over the past year, I worked as a 
-                        Mobile Apps Developer, designing and maintaining mobile applications while enhancing my 
-                        technical expertise. This experience strengthened my ability to collaborate with teams, 
-                        communicate effectively, and think critically to solve problems. I also conducted user 
-                        testing with MSMEs, provided training, and troubleshot issues to improve user adoption. 
-                        Currently, I am focusing on improving my frontend development skills, learning HTML, CSS, 
-                        JavaScript, and modern frameworks. My goal is to continuously grow as a developer by learning, 
-                        practicing, and refining my skills every day.
-                    </p>
-                </div>
+            <div id="about-education" class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree <br />Binus Univertsity</p>
             </div>
+          </div>
+          <div id="about-desc" class="text-container">
+            <p>
+              I recently graduated with a Bachelor's in Computer Science,
+              building a strong foundation in programming, software development,
+              and problem-solving. Over the past year, I worked as a Mobile Apps
+              Developer, designing and maintaining mobile applications while
+              enhancing my technical expertise. This experience strengthened my
+              ability to collaborate with teams, communicate effectively, and
+              think critically to solve problems. I also conducted user testing
+              with MSMEs, provided training, and troubleshot issues to improve
+              user adoption. Currently, I am focusing on improving my frontend
+              development skills, learning HTML, CSS, JavaScript, and modern
+              frameworks. My goal is to continuously grow as a developer by
+              learning, practicing, and refining my skills every day.
+            </p>
+          </div>
         </div>
-        <img id="about-arrow" src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" 
-        onclick="location.href='./#skill'"/>
+      </div>
+      <img
+        id="about-arrow"
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skill'"
+      />
     </section>
 
     <section id="skill">
-        <div class="title-container"> 
-            <p class="section__text__p1">Explore My</p>
-            <h1 class="title">Skills</h1>
-        </div>
-        <div class="skill-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <h2 class="skill-sub-title">Frontend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
-                            <div>
-                                <img class="skill-icon" src="assets/html.png" alt="">
-                                <h3>HTML</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
-                            <div>
-                                <img class="skill-icon" src="assets/css.png" alt="">
-                                <h3>CSS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
-                            <div>
-                                <img class="skill-icon" src="assets/javascript.png" alt="">
-                                <h3>JavaScript</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
-                            <div>
-                                <img class="skill-icon" src="assets/figma.png" alt="">
-                                <h3>Figma</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
-                            <div>
-                                <img class="skill-icon" src="assets/android studio.png" alt="">
-                                <h3>Android Studio</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
-                            <div>
-                                <img class="skill-icon" src="assets/github.png" alt="">
-                                <h3>Github</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                    </div>
+      <div class="title-container">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+      </div>
+      <div class="skill-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skill-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <img class="skill-icon" src="assets/html.png" alt="" />
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
                 </div>
-                <div class="details-container">
-                    <h2 class="skill-sub-title">Backend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
-                            <div>
-                                <img class="skill-icon" src="assets/mysql.png" alt="">
-                                <h3>SQL</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
-                            <div>
-                                <img class="skill-icon" src="assets/python.png" alt="">
-                                <h3>Python</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
-                            <div>
-                                <img class="skill-icon" src="assets/laravel.png" alt="">
-                                <h3>Laravel</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                    </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <img class="skill-icon" src="assets/css.png" alt="" />
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
                 </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <img class="skill-icon" src="assets/javascript.png" alt="" />
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <img class="skill-icon" src="assets/figma.png" alt="" />
+                  <h3>Figma</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <img
+                    class="skill-icon"
+                    src="assets/android studio.png"
+                    alt=""
+                  />
+                  <h3>Android Studio</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <img class="skill-icon" src="assets/github.png" alt="" />
+                  <h3>Github</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
             </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skill-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <img class="skill-icon" src="assets/mysql.png" alt="" />
+                  <h3>SQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <img class="skill-icon" src="assets/python.png" alt="" />
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <img class="skill-icon" src="assets/laravel.png" alt="" />
+                  <h3>Laravel</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" 
-        onclick="location.href='./#project'"/>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#project'"
+      />
     </section>
 
     <!-- <section id="projects">
@@ -272,137 +362,207 @@
     </section> -->
 
     <div id="project">
-        <div class="title-container">
-            <p class="section__text__p1">Browse My Recent</p>
-            <h1 class="title">Projects</h1>
-        </div>
+      <div class="title-container">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+      </div>
 
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <div class="article-container">
-                        <img src="./assets/rock-paper-scissor.png" alt="Project 1" class="card-avatar-img">
-                    </div>
-                    <h2 class="card-name-txt">Rock Paper Scissors</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/gregoriusgrd/rock-paper-scissors'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://gregoriusgrd.github.io/rock-paper-scissors/'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="article-container">
-                        <img src="./assets/calculator.png" alt="Project 2" class="card-avatar-img">
-                    </div>
-                    <h2 class="card-name-txt">Calculator</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/gregoriusgrd/calculator'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://gregoriusgrd.github.io/calculator/'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="article-container">
-                        <img src="./assets/to-do-list.png" alt="Project 3" class="card-avatar-img">
-                    </div>
-                    <h2 class="card-name-txt">To-Do List</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/gregoriusgrd/to-do-list'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://gregoriusgrd.github.io/to-do-list/'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="article-container">
-                        <img src="./assets/tic-tac-toe.png" alt="Project 3" class="card-avatar-img">
-                    </div>
-                    <h2 class="card-name-txt">Tic Tac Toe</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/gregoriusgrd/tic-tac-toe'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://gregoriusgrd.github.io/tic-tac-toe/'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="article-container">
-                        <img src="./assets/digital-clock.png" alt="Project 3" class="card-avatar-img">
-                    </div>
-                    <h2 class="card-name-txt">Digital Clock</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/gregoriusgrd/digital-clock'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://gregoriusgrd.github.io/digital-clock/'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-    
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="article-container">
+              <img
+                src="./assets/rock-paper-scissor.png"
+                alt="Project 1"
+                class="card-avatar-img"
+              />
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-        
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-            
+            <h2 class="card-name-txt">Rock Paper Scissors</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/gregoriusgrd/rock-paper-scissors'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://gregoriusgrd.github.io/rock-paper-scissors/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="article-container">
+              <img
+                src="./assets/calculator.png"
+                alt="Project 2"
+                class="card-avatar-img"
+              />
+            </div>
+            <h2 class="card-name-txt">Calculator</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/gregoriusgrd/calculator'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://gregoriusgrd.github.io/calculator/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="article-container">
+              <img
+                src="./assets/to-do-list.png"
+                alt="Project 3"
+                class="card-avatar-img"
+              />
+            </div>
+            <h2 class="card-name-txt">To-Do List</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/gregoriusgrd/to-do-list'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://gregoriusgrd.github.io/to-do-list/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="article-container">
+              <img
+                src="./assets/tic-tac-toe.png"
+                alt="Project 3"
+                class="card-avatar-img"
+              />
+            </div>
+            <h2 class="card-name-txt">Tic Tac Toe</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/gregoriusgrd/tic-tac-toe'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://gregoriusgrd.github.io/tic-tac-toe/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="article-container">
+              <img
+                src="./assets/digital-clock.png"
+                alt="Project 3"
+                class="card-avatar-img"
+              />
+            </div>
+            <h2 class="card-name-txt">Digital Clock</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/gregoriusgrd/digital-clock'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://gregoriusgrd.github.io/digital-clock/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" 
-        onclick="location.href='./#contact'"/>
-    </div><!-- Slider main container -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </div>
+    <!-- Slider main container -->
 
     <section id="contact">
-        <p id="contact-sub-title" class="section__text__p1">Get in Touch</p>
-        <h1 id="contact-title" class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
-                <p><a href="mailto:gregorius.gerald21@gmail.com">gregorius.gerald21@gmail.com</a></p> <!-- email here -->
-            </div>
-            <div class="contact-info-container">
-                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
-                <p><a href="https://www.linkedin.com/in/gregorius-geraldin/">LinkedIn</a></p> <!-- linkedin profile here -->
-            </div>
+      <p id="contact-sub-title" class="section__text__p1">Get in Touch</p>
+      <h1 id="contact-title" class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:gregorius.gerald21@gmail.com"
+              >gregorius.gerald21@gmail.com</a
+            >
+          </p>
+          <!-- email here -->
         </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/gregorius-geraldin/"
+              >LinkedIn</a
+            >
+          </p>
+          <!-- linkedin profile here -->
+        </div>
+      </div>
     </section>
 
     <footer>
-        <nav>
-            <div class="nav-links-container">
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skill">Skill</a></li>
-                    <li><a href="#project">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <p>Copyright &#169; 2025 Gregorius Geraldin. All Rights Reserved</p>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Gregorius Geraldin. All Rights Reserved</p>
     </footer>
-    
+
     <!-- Import Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- Script JS -->
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
