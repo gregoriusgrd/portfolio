@@ -4,12 +4,12 @@ import { useState, useEffect } from "react";
 
 export default function AnimatedRoles() {
     const [currentRole, setCurrentRole] = useState(0);
-    const roles = ["Developer", "Designer", "Content Creator"];
+    const roles = ["FullStack Developer", "Frontend Developer", "Backend Developer", "Mobile Developer"];
 
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentRole((prev) => (prev + 1) % roles.length);
-        }, 3000);
+        }, 4000);
         return () => clearInterval(interval);
     }, []);
 

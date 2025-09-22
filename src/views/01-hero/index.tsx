@@ -4,6 +4,7 @@ import AnimatedRoles from "./components/AnimatedRoles";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 export default function HeroSection() {
   return (
@@ -18,14 +19,14 @@ export default function HeroSection() {
         />
       </div>
 
-      <div className="mx-auto border-4 border-blue-700 text-center md:text-left">
-        <p className="text-4xl">Hello, I'm</p>
-        <h1 className="text-4xl">Gregorius Geraldin</h1>
+      <div className="my-auto border-4 border-blue-700 text-center md:text-left space-y-4">
+        <p className="text-sm md:text-base">Hello, I'm</p>
+        <h1 className="text-2xl md:text-4xl font-bold">Gregorius Geraldin</h1>
 
         <AnimatedRoles />
 
         {/* CV & Contact */}
-        <div>
+        <div className="flex gap-4 justify-center md:justify-start">
           <Button variant="outline">
             <a href="/hero/CV - Gregorius Geraldin.pdf" download>
               Download CV
@@ -36,6 +37,16 @@ export default function HeroSection() {
               Contact Me
             </Link>
           </Button>
+        </div>
+
+        {/* Social Media Icons */}
+        <div className="flex gap-4 justify-center md:justify-start">
+          <a href="https://www.linkedin.com/in/gregoriusgeraldin/" target="_blank" rel="noopener noreferrer">
+            <BsLinkedin className="h-8 w-8 " />
+          </a>
+          <a href="https://github.com/gregoriusgeraldin" target="_blank" rel="noopener noreferrer">
+            <BsGithub className="h-8 w-8 " />
+          </a>
         </div>
       </div>
     </section>
