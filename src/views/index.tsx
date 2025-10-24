@@ -1,6 +1,6 @@
 "use client";
 
-import HeroSection from "./01-hero";
+import { HeroSection } from "@/views/01-hero/HeroSection";
 
 export default function HomeView() {
   return (

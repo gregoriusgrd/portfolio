@@ -1,10 +1,12 @@
 "use client";
 
+// belum dipake (keep for now)
+
 import { useState, useEffect } from "react";
 
 export default function AnimatedRoles() {
     const [currentRole, setCurrentRole] = useState(0);
-    const roles = ["FullStack Developer", "Frontend Developer", "Backend Developer", "Mobile Developer"];
+    const roles = ["Web Developer", "Frontend Developer", "Backend Developer", "Mobile Developer"];
 
     useEffect(() => {
         const interval = setInterval(() => {
