@@ -27,7 +27,7 @@ export const AboutSection = () => {
             <h3 className="text-xl font-semibold">Work Experience</h3>
           </div>
 
-          <div className="rounded-lg border border-gray-200 p-4">
+          <div className="rounded-lg border border-gray-200 shadow-sm p-4">
             <div className="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
               <h4 className="font-medium text-gray-900">
                 Bina Nusantara University
@@ -56,7 +56,7 @@ export const AboutSection = () => {
           </div>
 
           {/* Purwadhika */}
-          <div className="rounded-lg border border-gray-200 p-4">
+          <div className="rounded-lg border border-gray-200 shadow-sm p-4">
             <div className="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
               <h4 className="font-medium text-gray-900">
                 Purwadhika
@@ -75,7 +75,7 @@ export const AboutSection = () => {
           </div>
 
           {/* Binus */}
-          <div className="rounded-lg border border-gray-200 p-4">
+          <div className="rounded-lg border border-gray-200 p-4 shadow-sm">
             <div className="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
               <h4 className="font-medium text-gray-900">
                 Bina Nusantara University
