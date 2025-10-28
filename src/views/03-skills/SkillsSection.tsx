@@ -47,8 +47,8 @@ export const SkillsSection = () => {
 
   return (
     <section id="skills" className="border-t border-gray-100 bg-gray-50 px-4 sm:px-6 md:px-10 lg:px-16 py-20 flex justify-center">
-      <div className="max-w-5xl w-full space-y-10 text-center md:text-left">
-        <div className="text-center space-y-3">
+      <div className="max-w-6xl w-full space-y-10 text-center md:text-left">
+        <div className="text-center md:text-left space-y-3">
           <h2 className="text-3xl font-bold text-gray-900">Skills & Tech Stack</h2>
           <p className="text-gray-600">Tools and tech I use to build applications.</p>
         </div>

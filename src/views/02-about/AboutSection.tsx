@@ -6,9 +6,9 @@ export const AboutSection = () => {
   return (
     <section
       id="about"
-      className="flex min-h-[70vh] items-center justify-center border-t border-gray-100 bg-white px-4 py-20 sm:px-6"
+      className="flex min-h-[70vh] items-center justify-center border-t border-gray-100 bg-white px-4 py-20 sm:px-6 md:px-10 lg:px-16"
     >
-      <div className="w-full max-w-5xl space-y-10">
+      <div className="max-w-6xl w-full space-y-10 text-center md:text-left">
         {/* About Me */}
         <div className="space-y-4 text-center md:text-left">
           <h2 className="text-3xl font-bold text-gray-900">About Me</h2>
