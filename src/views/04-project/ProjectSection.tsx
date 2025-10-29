@@ -6,8 +6,8 @@ export const ProjectsSection = () => {
   const projects = [
     {
       title: "Property Renting Web App",
-      description: "A property rental web app for comparing accommodation prices by date and destination. I developed the landing page, user and tenant authentication system, and property management features with a responsive UI and server-side data handling.",
-      image: "/project/roomrent-ss.png",
+      description: "A full-stack property rental web app that allows users to compare accommodation prices by date and destination. I developed the authentication and role-based access system, property and room management, and the responsive landing page with server-side data handling using",
+      image: "/project/roomrent-1.png",
       techStack: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express", "Prisma", "PostgreSQL", "Supabase"],
       liveUrl: "https://roomrent-fe.vercel.app/",
       githubUrl: "https://github.com/accaria/roomrent-fe",
@@ -15,7 +15,7 @@ export const ProjectsSection = () => {
     {
       title: "Cashier App (POS)",
       description:
-        "A full-stack internal POS system for managing in-store sales. Cashiers handle daily transactions and shifts, while admins manage products, cashiers, and reports. Built with secure authentication, form validation, and soft-delete data management.",
+        "A full-stack internal POS system for managing in-store sales. The app includes secure role-based authentication for admin and cashier, transaction and product management, and daily shift reports",
       image: "/project/poshub-ss.png",
       techStack: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express", "Prisma", "PostgreSQL", "Supabase"],
       liveUrl: "https://poshub-fe.vercel.app/",
@@ -24,7 +24,7 @@ export const ProjectsSection = () => {
     {
         title: "Ladang Lima Clone",
         description:
-            "A clone of the Ladang Lima e-commerce website, built using Next.js and Tailwind CSS. This project focuses on creating a responsive and visually appealing user interface that mirrors the original site.",
+            "A clone of the Ladang Lima e-commerce website. This project focuses on creating a responsive and visually appealing user interface that mirrors the original site.",
         image: "/project/ladang-lima-ss.png",
         techStack: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Headless CMS"],
         liveUrl: "https://ladang-lima-clone.vercel.app/",
