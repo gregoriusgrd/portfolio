@@ -6,7 +6,7 @@ export const ProjectsSection = () => {
   const projects = [
     {
       title: "Property Renting Web App",
-      description: "A full-stack property rental web app that allows users to compare accommodation prices by date and destination. I developed the authentication and role-based access system, property and room management, and the responsive landing page with server-side data handling using",
+      description: "A full-stack property rental web app that allows users to compare accommodation prices by date and destination. I developed the authentication and role-based access system, property and room management, and the responsive landing page with server-side data handling.",
       image: "/project/roomrent-1.png",
       techStack: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express", "Prisma", "PostgreSQL", "Supabase"],
       liveUrl: "https://roomrent-fe.vercel.app/",
@@ -15,7 +15,7 @@ export const ProjectsSection = () => {
     {
       title: "Cashier App (POS)",
       description:
-        "A full-stack internal POS system for managing in-store sales. The app includes secure role-based authentication for admin and cashier, transaction and product management, and daily shift reports",
+        "A full-stack internal POS system for managing in-store sales. The app includes secure role-based authentication for admin and cashier, transaction and product management, and daily shift reports.",
       image: "/project/poshub-ss.png",
       techStack: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express", "Prisma", "PostgreSQL", "Supabase"],
       liveUrl: "https://poshub-fe.vercel.app/",
