@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
+import { ScreenShare, Contact } from "lucide-react";
 
 export const HeroSection = () => {
   return (
@@ -29,9 +30,14 @@ export const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-3 pt-4">
-            <Button className="px-6 py-3 text-base">View My Work</Button>
-            <Button variant="outline" className="px-6 py-3 text-base">
-              Contact Me
+            <Button asChild className="px-6 py-3 text-base">
+              <a href="#projects">
+                <ScreenShare />
+                View My Work
+              </a>
+            </Button>
+            <Button asChild variant="outline" className="px-6 py-3 text-base">
+              <a href="#contact"><Contact />Contact Me</a>
             </Button>
           </div>
         </div>
