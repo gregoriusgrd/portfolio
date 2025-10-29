@@ -51,7 +51,7 @@ export const ContactInfo = () => {
           </a>
         </Button>
         <Button asChild variant="outline">
-          <a href="/hero/CV_Gregorius_Geraldin.pdf" download>
+          <a href="/contact/CV_Gregorius_Geraldin_ATS.pdf" download>
             <FileUser />
             Download CV
           </a>
