@@ -1,6 +1,6 @@
 "use client";
 
-import { ProjectCard } from "./ProjectCard";
+import { ProjectCard } from "./components/ProjectCard";
 
 export const ProjectsSection = () => {
   const projects = [
