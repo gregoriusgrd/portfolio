@@ -22,7 +22,7 @@ export const Navbar = () => {
     <nav className="fixed top-0 left-0 z-50 w-full border-b border-gray-200 bg-white/70 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         {/* Logo */}
-        <a href="#hero" className="text-lg font-semibold text-gray-900">
+        <a href="#home" className="text-lg font-semibold text-gray-900">
           Gregorius Geraldin
         </a>
 
