@@ -13,10 +13,11 @@ export const AboutSection = () => {
         <div className="space-y-4 text-center md:text-left">
           <h2 className="text-3xl font-bold text-gray-900">About Me</h2>
           <p className="max-w-3xl leading-relaxed text-gray-600">
-            Computer Science graduate currently completing a Full-Stack Development Bootcamp at Purwadhika, 
-            with hands-on experience building mobile application during a year-long internship. Comfortable using JavaScript, 
-            React, Next.js, Node.js, Express.js and PostgreSQL. Actively learning through real-world projects and 
-            looking to grow as a web and mobile developer through team collaboration.
+            Full-Stack Web Developer and Computer Science fresh graduate with one year of mobile
+            development experience and recent completion of {"Purwadhika's"} Full-Stack Web Development
+            Bootcamp. Comfortable using JavaScript, React, Next.js, Node.js, Express.js, and PostgreSQL.
+            Passionate about building scalable web and mobile applications, continuously learning through
+            real-world projects, and growing through team collaboration.
           </p>
         </div>
 
@@ -39,11 +40,11 @@ export const AboutSection = () => {
             </p>
             <ul className="mt-3 list-disc space-y-1 pl-5 text-gray-600">
               <li>
-                Designed and developed mobile apps using Java to support MSME operations across Indonesia, focusing on responsive UI and core features.
+                Built mobile apps using Java to support MSME operations across Indonesia with responsive UI and key business features.
               </li>
-              <li>Resolved 10+ critical bugs and integrated APIs in collaboration with cross-functional teams to meet client needs.</li>
-              <li>Collaborated with UI/UX team to implement 5+ interface updates based on feedback from 200+ testers.</li>
-              <li>Worked in Agile environment, participating in daily stand-ups, sprint planning, and used Trello to organize tasks and support team progress.</li>
+              <li>Resolved 10+ major bugs and integrated RESTful APIs with cross-functional teams.</li>
+              <li>Collaborated with the UI/UX team to deliver 5+ interface improvements based on feedback from 200+ testers.</li>
+              <li>Worked in Agile sprints, joined daily stand-ups, weekly syncs and used Trello for task management and team coordination.</li>
             </ul>
           </div>
         </div>
