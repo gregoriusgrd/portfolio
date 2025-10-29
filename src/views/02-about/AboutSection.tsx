@@ -83,7 +83,7 @@ export const AboutSection = () => {
               <p className="text-sm text-gray-600">Sep 2020 - Sep 2024</p>
             </div>
             <p className="text-sm text-gray-600">
-              Bachelor's Degree in Computer Science
+              {"Bachelor's"} Degree in Computer Science
             </p>
             <p className="text-sm text-gray-600">GPA: 3.34</p>
             <ul className="mt-3 list-disc space-y-1 pl-5 text-gray-600">

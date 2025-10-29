@@ -41,7 +41,7 @@ export const ProjectsSection = () => {
         <div className="space-y-4 text-center md:text-left">
           <h2 className="text-3xl font-bold text-gray-900">Projects</h2>
           <p className="text-gray-600">
-            Here are some of the projects I've worked on:
+            Here are some of the projects {"I've"} worked on:
           </p>
         </div>
 

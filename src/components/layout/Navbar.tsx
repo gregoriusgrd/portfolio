@@ -52,7 +52,7 @@ export const Navbar = () => {
       {/* Mobile Dropdown Menu */}
       {isOpen && (
         <div className="border-t border-gray-200 bg-white/95 shadow-sm backdrop-blur-md md:hidden">
-          <div className="flex flex-col items-center gap-4 py-4 font-medium text-gray-700">
+          <div className="flex flex-col items-center gap-4 px-6 py-4 font-medium text-gray-700">
             {navLinks.map((link) => (
               <a
                 key={link.href}

@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Github, Link2 } from "lucide-react";
+import { Github } from "lucide-react";
 import Image from "next/image";
 import { ExternalLink } from "lucide-react";
 
