@@ -40,11 +40,11 @@ export const AboutSection = () => {
             </p>
             <ul className="mt-3 list-disc space-y-1 pl-5 text-gray-600">
               <li>
-                Built mobile apps using Java to support MSME operations across Indonesia with responsive UI and key business features.
+                Built mobile apps using Java to support MSME operations across Indonesia focusing on responsive UI and essential business features.
               </li>
               <li>Resolved 10+ major bugs and integrated RESTful APIs with cross-functional teams.</li>
               <li>Collaborated with the UI/UX team to deliver 5+ interface improvements based on feedback from 200+ testers.</li>
-              <li>Worked in Agile sprints, joined daily stand-ups, weekly syncs and used Trello for task management and team coordination.</li>
+              <li>Worked in Agile sprints, joined daily stand-ups and weekly syncs, using Trello to improve coordination and ensure on-time delivery.</li>
             </ul>
           </div>
         </div>
