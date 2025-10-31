@@ -1,11 +1,11 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Mail, MapPin, Github, Linkedin, FileUser } from "lucide-react";
+import { Mail, MapPin, Github, Linkedin, FileUser, Send } from "lucide-react";
 
 export const ContactInfo = () => {
   return (
-    <div className="space-y-5 rounded-2xl border border-gray-200 bg-gray-50 p-6">
+    <div className="space-y-5 rounded-2xl border border-gray-200 bg-white p-6">
       {/* Email */}
       <div className="flex items-start gap-3">
         <Mail className="mt-0.5" />
@@ -13,7 +13,7 @@ export const ContactInfo = () => {
           <p className="text-sm text-gray-500">Email</p>
           <a
             href="mailto:gregorius.gerald21@gmail.com"
-            className="font-medium text-gray-900 hover:underline"
+            className="text-sm font-medium text-gray-900 hover:underline"
           >
             gregorius.gerald21@gmail.com
           </a>
@@ -25,7 +25,7 @@ export const ContactInfo = () => {
         <MapPin className="mt-0.5" />
         <div>
           <p className="text-sm text-gray-500">Location</p>
-          <p>Jakarta, Indonesia</p>
+          <p className="text-sm">Jakarta, Indonesia</p>
         </div>
       </div>
 

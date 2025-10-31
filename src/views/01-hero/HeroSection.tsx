@@ -16,27 +16,27 @@ export const HeroSection = () => {
         
         {/* Kiri: Text */}
         <div className="flex-1 text-center md:text-left space-y-6">
-          <p className="text-sm uppercase tracking-widest text-gray-500">
+          <p className="text-xs sm:text-sm uppercase tracking-widest text-gray-500">
             Hello, I’m
           </p>
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900">
             Gregorius Geraldin
           </h1>
-          <h2 className="text-xl md:text-2xl text-gray-700">
+          <h2 className="text-lg sm:text-xl md:text-2xl text-gray-700">
             Full-Stack Web Developer
           </h2>
-          <p className="text-gray-600 max-w-md mx-auto md:mx-0">
+          <p className="text-gray-600 max-w-md mx-auto md:mx-0 text-sm sm:text-base leading-relaxed">
             I design and build modern, scalable web applications that combine clean architecture with thoughtful user experiences.
           </p>
 
-          <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-3 pt-4">
-            <Button asChild className="px-6 py-3 text-base">
+          <div className="flex sm:flex-row justify-center md:justify-start gap-3 pt-3 sm:pt-4">
+            <Button asChild className="px-6 py-3 text-sm sm:text-base">
               <a href="#projects">
                 <ScreenShare />
                 View My Work
               </a>
             </Button>
-            <Button asChild variant="outline" className="px-6 py-3 text-base">
+            <Button asChild variant="outline" className="px-6 py-3 text-sm sm:text-base">
               <a href="#contact"><Contact />Contact Me</a>
             </Button>
           </div>
@@ -58,7 +58,7 @@ export const HeroSection = () => {
 
       {/* Scroll Down Indicator */}
 
-      <div className="absolute bottom-12 w-full flex justify-center">
+      <div className="absolute bottom-12 w-full sm:flex justify-center hidden">
         <a href="#about" className="inline-block mt-6 text-gray-500 hover:text-gray-900">
           <ArrowDown size={30} className="animate-bounce" />
         </a>
