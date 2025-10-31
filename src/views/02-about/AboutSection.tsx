@@ -8,9 +8,9 @@ export const AboutSection = () => {
       id="about"
       className="flex min-h-[70vh] items-center justify-center border-t border-gray-100 bg-white px-4 py-20 sm:px-6 md:px-10 lg:px-16"
     >
-      <div className="max-w-6xl w-full space-y-10 text-center md:text-left">
+      <div className="max-w-6xl w-full space-y-8 sm:space-y-10 text-sm sm:text-[15px] md:text-base">
         {/* About Me */}
-        <div className="space-y-4 text-center md:text-left">
+        <div className="space-y-4 text-left">
           <h2 className="text-3xl font-bold text-gray-900">About Me</h2>
           <p className="max-w-3xl leading-relaxed text-gray-600">
             Full-Stack Web Developer and Computer Science fresh graduate with one year of mobile

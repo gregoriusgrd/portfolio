@@ -36,6 +36,7 @@ export const ContactForm = () => {
           type="text"
           name="name"
           placeholder="Enter your name"
+          className="text-sm"
           required
         />
       </div>
@@ -52,6 +53,7 @@ export const ContactForm = () => {
           type="email"
           name="email"
           placeholder="Enter your email"
+          className="text-sm"
           required
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
@@ -68,6 +70,7 @@ export const ContactForm = () => {
           id="message"
           name="message"
           placeholder="Enter your message"
+          className="text-sm"
           rows={6}
           required
         />

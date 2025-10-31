@@ -37,10 +37,10 @@ export const ProjectsSection = () => {
       id="projects"
       className="border-t border-gray-100 bg-white px-4 sm:px-6 md:px-10 lg:px-16 py-20 flex justify-center"
     >
-      <div className="w-full max-w-6xl space-y-10">
-        <div className="space-y-4 text-center md:text-left">
+      <div className="w-full max-w-6xl space-y-8 sm:space-y-10 text-sm md:text-base">
+        <div className="space-y-4 text-left">
           <h2 className="text-3xl font-bold text-gray-900">Projects</h2>
-          <p className="text-gray-600">
+          <p className="text-gray-600 leading-relaxed">
             Here are some of the projects {"I've"} worked on:
           </p>
         </div>
